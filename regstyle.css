@@ -1,0 +1,70 @@
+.register{
+    background: linear-gradient(darkgoldenrod,green);
+    text-transform: capitalize;
+    border-style: groove;
+    border-width: 20px;
+    padding-left: 10px;
+   
+}  
+
+.top{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px;
+
+
+}
+.sub{
+    text-align: center;
+
+}
+.fname{
+    border-width: 5px;
+    border-radius: 15;
+    background-color: aliceblue;
+    direction: rtl
+    
+}
+.lname{
+    border-width: 5px;
+    border-radius: 15;
+    background-color: aliceblue;
+    direction: rtl
+}
+#enter{
+    border-width: 5px;
+    border-radius: 15;
+    background-color: aliceblue;
+    direction: rtl
+}
+
+.btnSub{
+    background-color: green;
+    width:100;
+    height: auto;
+    :hover{
+        background-color: blue;
+    }
+    color: aliceblue;
+    border-width: 10px;
+    border-style: block;
+    font-weight: bolder;
+    border-radius: 25px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.enter{
+   
+   
+    border-width: 5px;
+    border-radius: 15;
+    background-color:aliceb;
+    direction: rtl;
+    
+}
+.demo{
+    font-style: oblique;
+    font-weight: bold;
+}

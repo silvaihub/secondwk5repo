@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="./regstyle.css">
+    </head>
+    <body>
+        
+        <form class="register" name="reg">
+            <p  class="top">registration form </p>
+           
+            <label class="demo">first name</label>
+            <input class="fname" type="text" minlength="8" maxlength="12" required ></input>
+            <br><br>
+            <label class="demo">last name</label>
+            <input class="lname" type="text" minlength="8" maxlength="12" required></input>
+            <br><br>
+            <label class="demo">email address</label>
+            <input class="enter" type="email" multiple required  ></input>
+            <br><br>
+            <label class="demo">username</label>
+            <input class="enter" type="text" 
+                
+                required maxlength="8" minlength="6" 
+                pattern="([a-z]|[A-Z]&&[0-9]&&@|#|$|_|-|+|%|*)" title="must contain special characters and at least one number"></input>
+            <br><br>
+            <label class="demo">password</label>
+            <input id="enter" type="password" required autocomplete="off"></input>
+            <br><br>
+            <label class="demo">retype password</label>
+            <input class="renter" type="password" required autocomplete="off"></input>
+            <br><br><br>
+            <div class="sub">
+            <button class="btnSub" onclick="validFun()">SUBMIT</button>
+                </div>
+            <br><br>
+        </form>
+      <script src="./regjava.js"></script>  
+    </body>
+</html>
